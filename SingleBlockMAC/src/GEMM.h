@@ -1,9 +1,6 @@
 // this is the GEMM for arithmetic test
 #include "MAC.h"
 
-#define Ebit 4
-
-
 void SingleTileGEMM(ap_uint<W> A[SinM][SinK], ap_uint<W> B[SinK][SinN],SEXP_T betaA, SEXP_T betaB, SEXP_T &betaC, ap_uint<W> C[SinM][SinN]){
 	ap_int<Kadd> accum[SinM][SinN];
 	ap_int<Kadd-WI> mult;
