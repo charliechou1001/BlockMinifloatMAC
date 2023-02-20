@@ -1,4 +1,4 @@
-# BlockMinifloatMAC
+# Block Minifloat MAC
 Block minifloat MAC unit for single block GEMM support for arbitrary precision  
 The precision can be configured in "typedef.h"
 
